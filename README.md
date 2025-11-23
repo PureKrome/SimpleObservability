@@ -1,25 +1,23 @@
-# Simple Observability Dashboard
+<h1 align="center">Simple: Observability Dashboard</h1>
 
-A lightweight, Docker-ready dashboard for monitoring microservices health across multiple environments.
+<div align="center">
+  <i>A lightweight, Docker-ready dashboard for monitoring microservices health across multiple environments.</i>
+</div>
 
-## ⚖️ Dual License - Free for Qualified Users
+<p align="center">
 
-**Simple Observability uses a dual-license model:**
+# Summary
 
-✅ **FREE** for open source projects, students, non-profits, charities, and small businesses (<250 employees or <$1M revenue)  
-💼 **Commercial License** required for larger organisations
+Observe your services easily with this Website (via a docker image) and simple customization of your own services which you wish to observe.
+Update your "health" endpoints to return a specific schema which can then showcase the health AND state of the various services in your organisation.
 
-📄 **[View License Details](LICENSE.md)** | 💰 **[View Pricing](docs/PRICING.md)**
+How is this different to all the many other 'health' dashboards like NewRelic, DataDog, Splunk, App Insights, etc?  
+This exposes your own service meta-data in an easy to read dashboard - not just if it's 'healthy' or 'unresponsive'.
 
-## Features
+<img width="1496" height="722" alt="image" src="https://github.com/user-attachments/assets/5ab46b14-e8c2-4aee-8dea-0ef3d4160d65" />
 
-- 🎯 **Simple Setup**: Just configure your service endpoints and go
-- 🐳 **Docker Ready**: Designed to run as a container with volume-mounted configuration
-- 🌍 **Multi-Environment**: Display services across DEV, UAT, PROD, or custom environments
-- 📊 **Real-time Monitoring**: Auto-refreshing dashboard shows service health at a glance
-- 🔧 **Flexible Schema**: Standard health check format that works with any technology stack
-- 📦 **NuGet Package**: Easy-to-use library for .NET services (other languages supported via JSON)
-- ⚙️ **Settings UI**: Manage configuration directly from the web interface
+</p>
+
 
 ## Quick Start
 
@@ -204,6 +202,26 @@ Implement a `GET /healthz` endpoint that returns JSON using **camelCase** proper
 ```
 
 See [SCHEMA.md](docs/SCHEMA.md) for complete schema documentation.
+
+
+## ⚖️ Dual License - Free for Qualified Users
+
+**Simple Observability uses a dual-license model:**
+
+✅ **FREE** for open source projects, students, non-profits, charities, and small businesses (<250 employees or <$1M revenue)  
+💼 **Commercial License** required for larger organisations
+
+📄 **[View License Details](LICENSE.md)** | 💰 **[View Pricing](docs/PRICING.md)**
+
+## Features
+
+- 🎯 **Simple Setup**: Just configure your service endpoints and go
+- 🐳 **Docker Ready**: Designed to run as a container with volume-mounted configuration
+- 🌍 **Multi-Environment**: Display services across DEV, UAT, PROD, or custom environments
+- 📊 **Real-time Monitoring**: Auto-refreshing dashboard shows service health at a glance
+- 🔧 **Flexible Schema**: Standard health check format that works with any technology stack
+- 📦 **NuGet Package**: Easy-to-use library for .NET services (other languages supported via JSON)
+- ⚙️ **Settings UI**: Manage configuration directly from the web interface
 
 
 ## API Endpoints
