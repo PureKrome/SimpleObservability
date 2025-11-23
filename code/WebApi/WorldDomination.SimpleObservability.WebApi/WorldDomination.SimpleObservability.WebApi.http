@@ -1,0 +1,6 @@
+@WorldDomination.SimpleObservability.WebApi_HostAddress = http://localhost:5042
+
+GET {{WorldDomination.SimpleObservability.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

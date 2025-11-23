@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11217.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Solution Items", "0. Solution Items", "{BAABF570-B77E-4F9D-8425-89CC43FB38F9}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		ChangeLog.md = ChangeLog.md
+		coverlet.runsettings = coverlet.runsettings
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		docker-compose.yml = docker-compose.yml
+		global.json = global.json
+		icon.jpg = icon.jpg
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldDomination.SimpleObservability.WebApi", "code\WebApi\WorldDomination.SimpleObservability.WebApi\WorldDomination.SimpleObservability.WebApi.csproj", "{3838B1F0-50DF-4D76-995D-4A82C2CA8379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldDomination.SimpleObservability", "code\Core\WorldDomination.SimpleObservability\WorldDomination.SimpleObservability.csproj", "{227A6FDB-C289-47E7-AF4A-4186A7823B8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldDomination.SimpleObservability.SampleServiceWebApi", "code\WebApi\WorldDomination.SimpleObservability.SampleServiceWebApi\WorldDomination.SimpleObservability.SampleServiceWebApi.csproj", "{D8924008-4230-F21D-6CE3-8BF3DCA4DC3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosts", "Hosts", "{EA5E7EFA-B03A-4DFF-B493-A34AC9832BA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D4D27580-FA42-49DF-8053-7182F5B447CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldDomination.SimpleObservability.Tests", "code\Core\WorldDomination.SimpleObservability.Tests\WorldDomination.SimpleObservability.Tests.csproj", "{38F52C98-9FCF-48AE-B162-086F25B73837}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{7E137BB1-1B3D-4B0C-A121-51C21928DB0E}"
+	ProjectSection(SolutionItems) = preProject
+		.github\CODE_OF_CONDUCT.md = .github\CODE_OF_CONDUCT.md
+		.github\CONTRIBUTING.md = .github\CONTRIBUTING.md
+		.github\copilot-instructions.md = .github\copilot-instructions.md
+		.github\dependabot.yml = .github\dependabot.yml
+		.github\FUNDING.yml = .github\FUNDING.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{D869E787-472D-440A-9F57-B05F7A9766E6}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\MergeToMain.yml = .github\workflows\MergeToMain.yml
+		.github\workflows\PullRequest.yml = .github\workflows\PullRequest.yml
+		.github\workflows\Release.yml = .github\workflows\Release.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldDomination.SimpleObservability.WebApi.Tests", "code\WebApi\WorldDomination.SimpleObservability.WebApi.Tests\WorldDomination.SimpleObservability.WebApi.Tests.csproj", "{167D0290-BF41-1E18-C471-BB6EA88AE8A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3838B1F0-50DF-4D76-995D-4A82C2CA8379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3838B1F0-50DF-4D76-995D-4A82C2CA8379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3838B1F0-50DF-4D76-995D-4A82C2CA8379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3838B1F0-50DF-4D76-995D-4A82C2CA8379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{227A6FDB-C289-47E7-AF4A-4186A7823B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{227A6FDB-C289-47E7-AF4A-4186A7823B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{227A6FDB-C289-47E7-AF4A-4186A7823B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{227A6FDB-C289-47E7-AF4A-4186A7823B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8924008-4230-F21D-6CE3-8BF3DCA4DC3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8924008-4230-F21D-6CE3-8BF3DCA4DC3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8924008-4230-F21D-6CE3-8BF3DCA4DC3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8924008-4230-F21D-6CE3-8BF3DCA4DC3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38F52C98-9FCF-48AE-B162-086F25B73837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F52C98-9FCF-48AE-B162-086F25B73837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F52C98-9FCF-48AE-B162-086F25B73837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F52C98-9FCF-48AE-B162-086F25B73837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167D0290-BF41-1E18-C471-BB6EA88AE8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167D0290-BF41-1E18-C471-BB6EA88AE8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167D0290-BF41-1E18-C471-BB6EA88AE8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167D0290-BF41-1E18-C471-BB6EA88AE8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3838B1F0-50DF-4D76-995D-4A82C2CA8379} = {EA5E7EFA-B03A-4DFF-B493-A34AC9832BA6}
+		{227A6FDB-C289-47E7-AF4A-4186A7823B8A} = {D4D27580-FA42-49DF-8053-7182F5B447CF}
+		{D8924008-4230-F21D-6CE3-8BF3DCA4DC3D} = {EA5E7EFA-B03A-4DFF-B493-A34AC9832BA6}
+		{38F52C98-9FCF-48AE-B162-086F25B73837} = {D4D27580-FA42-49DF-8053-7182F5B447CF}
+		{D869E787-472D-440A-9F57-B05F7A9766E6} = {7E137BB1-1B3D-4B0C-A121-51C21928DB0E}
+		{167D0290-BF41-1E18-C471-BB6EA88AE8A6} = {EA5E7EFA-B03A-4DFF-B493-A34AC9832BA6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {986B95B4-4B70-4528-8C6E-FBA3E818BCED}
+	EndGlobalSection
+EndGlobal

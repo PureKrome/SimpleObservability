@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="WorldDomination.SimpleObservability.WebApi.Tests\**" />
+    <Content Remove="WorldDomination.SimpleObservability.WebApi.Tests\**" />
+    <EmbeddedResource Remove="WorldDomination.SimpleObservability.WebApi.Tests\**" />
+    <None Remove="WorldDomination.SimpleObservability.WebApi.Tests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Serilog.AspNetCore" />
+    <PackageReference Include="Serilog.Settings.Configuration" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\WorldDomination.SimpleObservability\WorldDomination.SimpleObservability.csproj" />
+  </ItemGroup>
+
+</Project>
